@@ -1,3 +1,5 @@
 services:
-  main:
+  server:
     build: .
+    image: socket_server
+    container_name: server
